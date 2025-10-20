@@ -1,0 +1,19 @@
+h1{
+    color:red;
+}
+
+a:link{
+    
+}
+
+a:active{
+    background-color: white;
+}
+
+a:hover{
+    background-color: red;
+}
+
+a:visited{
+    background-color: white;
+}
