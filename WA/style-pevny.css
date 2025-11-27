@@ -1,0 +1,11 @@
+:root {
+    --color1: #d8c8bc;
+    --color2: #cac5a1;
+    --color3: #283c64;
+    --color4: #305c68;
+    --color5: #376d71;
+  }
+  
+  div#wrapper{
+    background-color: yellow;
+  }
