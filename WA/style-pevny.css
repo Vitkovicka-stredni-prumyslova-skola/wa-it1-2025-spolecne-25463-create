@@ -6,6 +6,27 @@
     --color5: #376d71;
   }
   
-  div#wrapper{
-    background-color: yellow;
+  div#container{
+    background-color: var(--color1);
+    width: 1440px;
+    height: 1000px;
+    margin: auto;
+  }
+  header{
+    background-color: var(--color2);
+    height: 400px;
+  }
+  nav{
+    background-color: var(--color3);
+    height: 350px;
+    width: 400px;
+  }
+  main{
+    background-color: var(--color4);
+    height: 1000px;
+    width: 800px;
+  }
+  footer{
+    background-color: var(--color5);
+    height: 400px;
   }
