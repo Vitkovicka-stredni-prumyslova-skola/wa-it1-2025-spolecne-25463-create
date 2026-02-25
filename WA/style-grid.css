@@ -1,0 +1,12 @@
+.box {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    border: 2px soled #666;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
