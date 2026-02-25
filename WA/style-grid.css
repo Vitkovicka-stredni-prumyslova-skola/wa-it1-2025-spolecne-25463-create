@@ -7,6 +7,10 @@
 
 .container{
     display: grid;
-    grid-template-columns: 200px 200px;
-    gap: 20px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 30px;
+}
+
+.box:nth-child(odd) {
+    background-color: red;
 }
