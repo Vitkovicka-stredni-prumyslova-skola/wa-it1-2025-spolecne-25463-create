@@ -10,12 +10,12 @@
     display: grid;
 
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(6,100px);
+    grid-template-rows: repeat(7, 280px);
     gap: 10px;
 
     grid-template-areas: 
-      "header header header header header"
-      ". nav nav nav ."
+        "header header header header header"
+        ". nav nav nav ."
         ". main main main box1"
         ". main main main box2"
         ". main main main box3"
@@ -24,28 +24,67 @@
     ;
 }
 
-.rahh{
-    padding: 14px;
-}
-
-.menu{
-    list-style: none;
-    display: flex;
-}
 
 .card h2{
     margin: 0 0 10px 0;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .card{
     background-color: white;
     border: 2px solid #ddd;
     border-radius: 12px;
-    flex: 1 1 220px;
+    flex: 1 1fr 250px;
     display: flex;
     flex-direction: column;
     height: auto;
+    width: 250px;
+    flex-wrap: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.rahh{
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    padding: 15px;
+    gap: 10px;
+    border-radius: 12px;
+    resize: vertical;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-left: 300px;
+}
+
+.menu li a{
+    list-style: none;
+    display: flex;
+    background-color: white;
+    border: 2px solid #111;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    background-color: white;   
+}
+
+.menu li a:hover{
+    background-color: #111;
+    color: white;
+    border-color: #111;
 }
 
 body{
@@ -102,29 +141,26 @@ p.desc{
     margin-top: auto;
 }
 
-.menu li a{
-    text-decoration: none;
-    color: black;
-    background-color: white;   
-}
-
 header{
     background-color: aqua;
     grid-area: header;
+    height: auto;
 }
 
 main{
     background-color: antiquewhite;
     grid-area: main;
+    height: auto;
 }
 
 nav{
     background-color: blue;
     grid-area: nav;
+    height: auto;
 }
 
 footer{
-    background-color: azure;
+    background-color: aqua;
     grid-area: footer;
 }
 
@@ -158,7 +194,7 @@ footer{
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(12,100px);
+    grid-template-rows: repeat(21,100px);
 
     grid-template-areas: 
       "header "
@@ -166,14 +202,44 @@ footer{
         "main "
         "main "
         "main "
+        "."
+        "."
+        "."
+        "."
+        "."
+        "."
+        "."
+        "."
+        "."
         "box1 "
         "box2 "
         "box3 "
         "box4 "
         "box5 "
-        "box6 "s
+        "box6 "
         "footer"
     ;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-left: 30px;
+}
+
+.menu li a{
+    list-style: none;
+    display: flex;
+    background-color: white;
+    border: 2px solid #111;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 }
