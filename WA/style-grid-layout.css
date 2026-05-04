@@ -48,6 +48,7 @@ main{
 nav{
     background-color: blue;
     grid-area: nav;
+    
 }
 
 footer{
@@ -84,21 +85,21 @@ footer{
     .container{
     display: grid;
 
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: repeat(12,100px);
 
     grid-template-areas: 
       "header "
-        "nav"
-        "main "
-        "main "
-        "main "
+        "nav "
+        " main "
+        " main "
+        " main "
         "box1 "
         "box2 "
         "box3 "
         "box4 "
         "box5 "
-        "box6 "s
+        "box6 "
         "footer"
     ;
 }

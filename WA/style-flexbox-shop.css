@@ -58,7 +58,7 @@
     list-style: none;
     display: flex;
     border-radius: 8px;
-    padding: 10px 12px;
+    padding: initial;
     cursor: pointer;
     margin-top: auto;
     margin-left: 300px;
@@ -194,7 +194,7 @@ footer{
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(21, 170px);
+    grid-template-rows: repeat(12, 1fr);
 
     grid-template-areas: 
       "header "
@@ -202,15 +202,6 @@ footer{
         "main "
         "main "
         "main "
-        "."
-        "."
-        "."
-        "."
-        "."
-        "."
-        "."
-        "."
-        "."
         "box1 "
         "box2 "
         "box3 "
