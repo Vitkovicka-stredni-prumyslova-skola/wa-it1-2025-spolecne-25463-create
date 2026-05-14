@@ -244,13 +244,17 @@ main{
     width: auto;
 }
 
+nav{
+    background-color: blue;
+    grid-area: nav;
+    height: auto;
+}
 
 .menu{
     list-style: none;
     display: flex;
     border-radius: 8px;
     cursor: pointer;
-    justify-content:center;
 }
 
 .menu li a{
