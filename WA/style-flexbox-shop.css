@@ -31,7 +31,7 @@
 }
 
 .card{
-    background-color: white;
+    background-color:lightgrey;
     border: 2px solid #ddd;
     border-radius: 12px;
     flex: 1 1fr 250px;
@@ -67,7 +67,7 @@
 
 nav{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: nav;
     height: auto;
 }
@@ -103,7 +103,6 @@ body{
     display:flex;
     gap: 15px;
     flex-wrap: wrap;
-    
 }
 
 .thumb img{
@@ -122,7 +121,6 @@ p.desc{
     font-weight: bold;
     margin: 0 0 10px 0;
 }
-
 
 .btn{
     background-color: white;
@@ -148,52 +146,52 @@ p.desc{
 
 header{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: header;
     height: auto;
 }
 
 main{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: main;
     height: auto;
 }
 
 footer{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: footer;
 }
 
 .box1{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: box1;
 }
 .box2{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: box2;
 }
 .box3{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: box3;
 }
 .box4{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: box4;
 }
 .box5{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: box5;
 }
 .box6{
     background-color:#b0b0b045;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9f;
     grid-area: box6;
 }
 
@@ -210,13 +208,13 @@ footer{
             "main "
             "main "
             "main "
-            "."
-            "."
-            "."
-            "."
-            "."
-            "."
-            "."
+            "main "
+            "main "
+            "main "
+            "main "
+            "main "
+            "main "
+            "main "
             "box1 "
             "box2 "
             "box3 "
@@ -227,6 +225,10 @@ footer{
     ;
 }
 
+.page-header{
+    width: 450px;
+    justify-content: center;
+}
 
 .card h2{
     margin: 0 0 10px 0;
@@ -234,8 +236,8 @@ footer{
 }
 
 .card{
-    background-color: white;
-    border: 2px solid #ddd;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     border-radius: 6px;
     flex: 1 1fr 150px;
     display: flex;
@@ -245,15 +247,16 @@ footer{
 }
 
 main{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: main;
     height: auto;
     width: auto;
-    
 }
 
 nav{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: nav;
     height: auto;
 }
@@ -287,27 +290,33 @@ nav{
 }
 
 .box1{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: box1;
 }
 .box2{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: box2;
 }
 .box3{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: box3;
 }
 .box4{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: box4;
 }
 .box5{
-    background-color: darkgrey;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: box5;
 }
 .box6{
-    background-color: whitesmoke;
+    background-color: #b0b0b045;
+    border: 2px solid #9f9f9f;
     grid-area: box6;
 }
 
