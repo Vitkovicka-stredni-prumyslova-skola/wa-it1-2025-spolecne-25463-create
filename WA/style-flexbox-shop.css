@@ -30,9 +30,9 @@
     font-size: 18px;
 }
 
-.card{
+.card{ 
     background-color:lightgrey;
-    border: 2px solid #ddd;
+    border: 2px solid #000000;
     border-radius: 12px;
     flex: 1 1fr 250px;
     display: flex;
@@ -46,12 +46,12 @@
 
 .rahh{
     display: flex;
-    flex-direction: column;
-    height: auto; 
+    height: auto;
     padding: 15px;
     gap: 10px;
     border-radius: 12px;
     resize: vertical;
+    border-color:#9f9f9f;
 }
 
 .menu{
@@ -156,6 +156,7 @@ main{
     border: 2px solid #9f9f9f;
     grid-area: main;
     height: auto;
+    border-color: #000000;
 }
 
 footer{
